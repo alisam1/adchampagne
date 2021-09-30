@@ -1,0 +1,30 @@
+@mixin title {
+  font-size: 2.8rem;
+  line-height: 3.7rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #1a3f5e;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+}
+
+@mixin lead {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  color: #8296a7;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+  }
+}

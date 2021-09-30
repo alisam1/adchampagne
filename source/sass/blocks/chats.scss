@@ -1,0 +1,31 @@
+.chats {
+  padding-top: 26rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: url("../img/chats_bg.png") no-repeat top 33rem right 20rem;
+
+  &__lead {
+    @include lead;
+  }
+  &__title {
+    max-width: 35rem;
+    @include title;
+  }
+
+  @media (max-width: 1024px) {
+    padding-top: 9.5rem;
+    background: url("../img/chats_bg.png") no-repeat top 12rem right 5rem;
+  }
+
+  @media (max-width: 650px) {
+    flex-direction: column-reverse;
+    text-align: center;
+    background: none;
+
+    img {
+      margin-top: 3rem;
+    }
+  }
+}

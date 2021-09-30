@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 31 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>248-russia</title>
+    <g id="iOS/Android-вместе" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_1.1_languages" transform="translate(-1109.000000, -103.000000)" fill-rule="nonzero">
+            <g id="languages_full-copy" transform="translate(1093.000000, 82.000000)">
+                <g id="russian" transform="translate(16.000000, 20.000000)">
+                    <g id="248-russia" transform="translate(0.000000, 1.000000)">
+                        <path d="M28.6783301,0 L2.32166992,0 C1.0394082,0 0,1.02352675 0,2.28619637 L0,6.66666667 L31,6.66666667 L31,2.28619637 C31,1.02352675 29.9605918,0 28.6783301,0 Z" id="Path" fill="#F5F5F5"></path>
+                        <path d="M0,17.7138036 C0,18.9764136 1.0394082,20 2.32166992,20 L28.6783301,20 C29.9605312,20 31,18.9764733 31,17.7138036 L31,13.3333333 L0,13.3333333 L0,17.7138036 Z" id="Path" fill="#FF4B55"></path>
+                        <rect id="Rectangle" fill="#41479B" x="0" y="6.66654742" width="31" height="6.66630894"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

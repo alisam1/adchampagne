@@ -1,0 +1,155 @@
+.open-world {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 12.5rem;
+
+  &__left {
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+  }
+
+  &__right {
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    @include title;
+    max-width: 32rem;
+    position: relative;
+    margin-bottom: 5rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 6rem;
+      height: 0.6rem;
+      background: #1088ec;
+      border-radius: 23px;
+      left: 0;
+      bottom: -2rem;
+
+      @media (max-width: 650px) {
+        left: 0;
+        right: 0;
+        bottom: -2rem;
+        margin: auto;
+      }
+    }
+
+    @media (max-width: 650px) {
+      max-width: 100%;
+    }
+  }
+
+  &__description {
+    display: none;
+    max-width: 32rem;
+    @include lead;
+
+    @media (max-width: 650px) {
+      max-width: 100%;
+    }
+  }
+
+  &__lead {
+    font-size: 1.6rem;
+    color: #1a3f5e;
+    line-height: 2.9rem;
+  }
+
+  &__buttons {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  &__block {
+    @media (max-width: 650px) {
+      width: 48%;
+    }
+  }
+
+  &__block:nth-child(1) {
+    margin-right: 3rem;
+  }
+
+  &__appstore {
+    display: block;
+    width: 18.8rem;
+    height: 6rem;
+    background-image: url("../img/appStore.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.active {
+      background-image: url("../img/appStore_active.png");
+    }
+
+    @media (max-width: 1024px) {
+      width: 14.4rem;
+      height: 4.6rem;
+    }
+
+    @media (max-width: 650px) {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  &__googleplay {
+    display: block;
+    width: 20rem;
+    height: 6rem;
+    background-image: url("../img/googlePlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.active {
+      background-image: url("../img/googlePlay_active.png");
+    }
+    @media (max-width: 1024px) {
+      width: 15.4rem;
+      height: 4.6rem;
+    }
+    @media (max-width: 650px) {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+
+  &__soon,
+  &__up {
+    display: none;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #1a3f5e;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+
+    &--white {
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding-top: 5.6rem;
+  }
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    text-align: center;
+    img {
+      width: 100%;
+      margin-top: 7rem;
+    }
+  }
+}

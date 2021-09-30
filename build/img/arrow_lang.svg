@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="9px" viewBox="0 0 11 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play (1)</title>
+    <g id="iOS/Android-вместе" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_1.1_languages" transform="translate(-1244.000000, -46.000000)" fill="#1A3F5E" fill-rule="nonzero">
+            <g id="header_menu" transform="translate(654.000000, 26.000000)">
+                <g id="Group-16-Copy-4" transform="translate(505.000000, 0.000000)">
+                    <g id="play-(1)" transform="translate(90.509467, 24.134978) rotate(-270.000000) translate(-90.509467, -24.134978) translate(86.386044, 18.644444)">
+                        <path d="M7.6392,4.47084444 L1.53964444,0.295111111 C1.25795556,0.102133333 0.974133333,0 0.738222222,0 C0.282133333,0 0,0.366044444 0,0.978755556 L0,10.0037333 C0,10.6157333 0.281777778,10.9810667 0.7368,10.9810667 C0.973066667,10.9810667 1.25235556,10.8788444 1.53466667,10.6853333 L7.63706667,6.50968889 C8.02951111,6.24071111 8.24684447,5.87875556 8.24684447,5.49004444 C8.24693333,5.1016 8.03208889,4.73973333 7.6392,4.47084444 Z" id="Path" transform="translate(4.123422, 5.490533) rotate(-180.000000) translate(-4.123422, -5.490533) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

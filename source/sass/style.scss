@@ -1,0 +1,40 @@
+@import "blocks/normalize.scss";
+@import "blocks/variables.scss";
+@import "blocks/header.scss";
+@import "blocks/open-world.scss";
+@import "blocks/events.scss";
+@import "blocks/way.scss";
+@import "blocks/search.scss";
+@import "blocks/navigator.scss";
+@import "blocks/chats.scss";
+@import "blocks/profile.scss";
+@import "blocks/world.scss";
+@import "blocks/footer.scss";
+
+html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+
+  @media (min-width: 1920px) {
+    font-size: 0.52vw;
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 126rem;
+  width: 80%;
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

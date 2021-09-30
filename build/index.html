@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>AdChampagne</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__content">
+            <div class="header__left">
+                <div class="header__logo">
+                    <img src="img/logo.svg" alt="Logo">
+                </div>
+            </div>
+            <button class="header__mobile"></button>
+            <div class="header__right">
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item navigation__item--catalog">
+                            <a class="navigation__link" href="#">Каталог</a>
+                        </li>
+                        <li class="navigation__item navigation__item--download">
+                            <a class="navigation__link navigation__link--download" href="">Скачать приложение</a>
+                        </li>
+                        <li class="navigation__item navigation__item--signup">
+                            <a class="navigation__link" href="#">Войти</a>
+                        </li>
+                        <li class="navigation__item navigation__item--language">
+                            <div class="langArea">
+                                <p>
+                                    <span>
+                                        <img src="img/ru.svg" alt="Ru">
+                                    </span>Рус.
+                                </p>
+                            </div>
+                            <ul class="language-select">
+                                <button class="language-select__close"></button>
+                                <li class="active" data-lang="ru">
+                                    <span>
+                                        <img src="img/ru.svg" alt="Ru">
+                                    </span>
+                                    Русский
+                                </li>
+                                <li data-lang="en">
+                                    <span>
+                                        <img src="img/en.svg" alt="En">
+                                    </span>
+                                    Английский</li>
+                                <li data-lang="ch">
+                                    <span>
+                                        <img src="img/ch.svg" alt="Ch">
+                                    </span>
+                                    Китайский</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="open-world container">
+        <div class="open-world__left">
+            <h1 class="open-world__title">Открой для себя мир полный путешествий и классных людей</h1>
+            <div class="open-world__group">
+                <p class="open-world__description">Путешествуй, сохраняй маршруты, будь частью крутого сообщества</p>
+                <span class="open-world__lead">Скоро в</span>
+                <div class="open-world__buttons">
+                    <div class="open-world__block">
+                        <p class="open-world__soon open-world__soon--appstore">Скоро в</p>
+                        <p class="open-world__up open-world__up--appstore">Доступно</p>
+                        <a href="#" class="open-world__appstore" target="_blank"></a>
+                    </div>
+                    <div class="open-world__block">
+                        <p class="open-world__soon open-world__soon--googleplay">Скоро в</p>
+                        <p class="open-world__up open-world__up--googleplay">Доступно</p>
+                        <a href="https://play.google.com/store/" class="open-world__googleplay" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="open-world__right">
+            <picture>
+                <source srcset="img/main_bg_tablet.png" media="(max-width: 1024px)">
+                <source srcset="img/main_mobile.png" media="(max-width: 650px)">
+                <source srcset="img/main_img.png">
+                <img src="img/main_img.png" alt="main_img">
+            </picture>
+        </div>
+    </section>
+
+    <section class="events container">
+        <p class="events__lead">События</p>
+        <h3 class="events__title">Создавай события и приглашай других пользователей</h3>
+        <picture>
+            <source srcset="img/events_tablet.png" media="(max-width: 1024px)">
+            <source srcset="img/events_mobile.png" media="(max-width: 650px)">
+            <source srcset="img/events_img.png">
+            <img src="img/events_img.png" alt="events">
+        </picture>
+
+    </section>
+
+    <section class="way container">
+        <div class="way__left">
+            <p class="way__lead">Запись маршрутов</p>
+            <h3 class="way__title">Записывай свой маршрут, ставь промежуточные точки, добавляй фото и описание</h3>
+        </div>
+        <div class="way__right">
+            <picture>
+                <source srcset="img/way_tablet.png" media="(max-width: 1024px)">
+                <source srcset="img/way_mobile.png" media="(max-width: 650px)">
+                <source srcset="img/way_img.png">
+                <img src="img/way_img.png" alt="way">
+            </picture>
+        </div>
+    </section>
+
+    <section class="search container">
+        <div class="search__left">
+            <picture>
+                <source srcset="img/search_tablet.png" media="(max-width: 1024px)">
+                <source srcset="img/search_mobile.png" media="(max-width: 650px)">
+                <source srcset="img/search_img.png">
+                <img src="img/search_img.png" alt="search">
+            </picture>
+        </div>
+        <div class="search__right">
+            <p class="search__lead">Поиск по интересам</p>
+            <h3 class="search__title">Легкий поиск отдыха по интересам</h3>
+        </div>
+    </section>
+
+    <section class="navigator container">
+        <div class="navigator__left">
+            <p class="navigator__lead">Умный навигатор</p>
+            <h3 class="navigator__title">Проложи маршрут по труднодоступным местам на разных видах транспорта</h3>
+        </div>
+        <div class="navigator__right">
+            <picture>
+                <source srcset="img/navigator_tablet.png" media="(max-width: 1024px)">
+                <source srcset="img/navigator_mobile.png" media="(max-width: 650px)">
+                <source srcset="img/navigator_img.png">
+                <img src="img/navigator_img.png" alt="navigator">
+            </picture>
+        </div>
+    </section>
+
+    <section class="chats container">
+        <div class="chats__left">
+            <picture>
+                <source srcset="img/chats_tablet.png" media="(max-width: 1024px)">
+                <source srcset="img/chats_mobile.png" media="(max-width: 650px)">
+                <source srcset="img/chats_img.png">
+                <img src="img/chats_img.png" alt="chats">
+            </picture>
+        </div>
+        <div class="chats__right">
+            <p class="chats__lead">Групповые чаты</p>
+            <h3 class="chats__title">Создавай собственные групповые чаты, добавляй туда любое количество людей</h3>
+        </div>
+    </section>
+
+    <section class="profile container">
+        <p class="profile__lead">Профиль</p>
+        <h3 class="profile__title">Развивай свой профиль и о вас узнают другие пользователи и путешественники</h3>
+        <picture>
+            <source srcset="img/profile_tablet.png" media="(max-width: 1024px)">
+            <source srcset="img/profile_mobile.png" media="(max-width: 650px)">
+            <source srcset="img/profil_img.png">
+            <img src="img/profil_img.png" alt="profile">
+        </picture>
+    </section>
+
+    <section class="world">
+        <div class="container">
+            <div class="world__content">
+                <p class="world__description">Скоро в</p>
+                <div class="world__buttons">
+                    <div class="open-world__block">
+                        <p class="open-world__soon open-world__soon--appstore open-world__soon--white">Скоро в</p>
+                        <p class="open-world__up open-world__up--appstore open-world__up--white">Доступно</p>
+                        <a href="#" class="open-world__appstore" target="_blank"></a>
+                    </div>
+                    <div class="open-world__block">
+                        <p class="open-world__soon open-world__soon--googleplay  open-world__soon--white">Скоро в</p>
+                        <p class="open-world__up open-world__up--googleplay open-world__up--white">Доступно</p>
+                        <a href="https://play.google.com/store/" class="open-world__googleplay" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="footer__social">
+                    <a href="" class="footer__social--fb"></a>
+                    <a href="" class="footer__social--insta"></a>
+                    <a href="mailto:test@test.ru" class="footer__social--mail"></a>
+                </div>
+                <div class="footer__visitors">
+                    Посещений сайта: <span>103</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

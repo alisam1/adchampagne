@@ -1,0 +1,80 @@
+.footer {
+  width: 100%;
+  height: 5.8rem;
+  border-top: 1px solid rgba(0, 41, 76, 0.1);
+
+  &__content {
+    height: 5.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media (max-width: 650px) {
+      height: 12rem;
+    }
+  }
+
+  &__logo {
+    width: 12.5rem;
+    height: 2.8rem;
+  }
+
+  &__social {
+    display: flex;
+
+    &--fb {
+      display: block;
+      width: 1.9rem;
+      height: 1.9rem;
+      background: url("../img/facebook_icon.svg") no-repeat center;
+      margin-right: 3rem;
+    }
+
+    &--insta {
+      display: block;
+      width: 1.9rem;
+      height: 1.9rem;
+      background: url("../img/instagram_icon.svg") no-repeat center;
+      margin-right: 3rem;
+    }
+
+    &--mail {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      background: url("../img/mail_icon.svg") no-repeat center;
+    }
+  }
+
+  &__visitors {
+    font-size: 1.6rem;
+    color: #1a3f5e;
+    display: flex;
+    align-items: center;
+
+    span {
+      display: inline-block;
+      width: 9rem;
+      height: 3rem;
+      background: #1a3f5e;
+      border-radius: 0.9rem;
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: right;
+      margin-left: 0.5rem;
+      padding: 0 1rem;
+      padding-top: 0.2rem;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 650px) {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 650px) {
+    height: 12rem;
+  }
+}
